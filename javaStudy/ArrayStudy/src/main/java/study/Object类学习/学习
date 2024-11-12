@@ -1,0 +1,10 @@
+java.lang.Object
+任何一个java类（除了Object类本身，都直接或者间接的继承于Object类）
+也被称为java类的根父类
+  1、Object类提供了一个空参的构造器（constructor）
+  2、没有声明任何属性
+
+  常用方法：
+  1、equals()
+  在没有重写该方法的情况下，调用的就是Object类中声明的equals()
+  比较两个对象的引用地址是否相同（是否指向堆空间中的一个地址）
